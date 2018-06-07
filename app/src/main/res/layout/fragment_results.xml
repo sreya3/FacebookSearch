@@ -1,0 +1,25 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:id="@+id/btn_prev"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="PREV"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
+        android:id="@+id/items_list_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@id/btn_prev" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
